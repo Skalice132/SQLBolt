@@ -1,0 +1,22 @@
+
+Exercise 6 — Tasks
+
+
+1. Find the domestic and international sales for each movie:
+
+SELECT Title, Domestic_sales, International_sales FROM movies
+    INNER JOIN Boxoffice ON Movie_id = movies.id;
+
+
+2. Show the sales numbers for each movie that did better internationally rather than domestically:
+
+SELECT Title, International_sales, Domestic_sales FROM movies
+    INNER JOIN Boxoffice ON Movie_id = movies.id
+    WHERE International_sales > Domestic_sales;
+
+
+3. List all the movies by their ratings in descending order:
+
+SELECT Title, Rating FROM movies
+    INNER JOIN Boxoffice ON Movie_id = movies.id
+    ORDER BY Rating DESC;

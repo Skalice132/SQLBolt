@@ -1,3 +1,3 @@
 # SQLBolt
 
-Ответы к заданиям на сайте: https://sqlbolt.com/.
+Ответы к заданиям на сайте: sqlbolt.com.

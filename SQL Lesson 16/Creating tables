@@ -1,3 +1,5 @@
+Exercise 16 — Tasks
+
 Create a new table named Database with the following columns:
 – Name A string (text) describing the name of the database
 – Version A number (floating point) of the latest version of this database
